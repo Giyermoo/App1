@@ -42,6 +42,41 @@ make app1
 
 En este comando podemos ver que el _make app1_ compila el proyecto, _./app1 ventas.csv_ ejecuta el programa con el archivo csv y por ultimo las metricas _pms pls dms dls dmsp dlsp apo apd ims hp_ son las que queremos que se impriman una vez se ejecute el programa.
 
+**Diagrama de flujo general del programa:**
+
+[Inicio]
+   ↓
+[Lectura del archivo CSV]
+   ↓
+[Almacenar datos en estructura `order`]
+   ↓
+[Recorrer argumentos]
+   ↓
+┌────────────────────────────────────┐
+│ ¿Es una métrica válida (pms, apo)?│
+└────────────────────────────────────┘
+   ↓  Sí                          No ↓
+[Ejecutar función de métrica]    [Ignorar]
+   ↓
+[Imprimir resultado]
+   ↓
+[Fin del ciclo]
+   ↓
+[Liberar memoria]
+   ↓
+[Fin del programa]
+
+
+**Razones de diseño y decisiones técnicas:**
+
+- Se utilizó el tipo `struct order` para modelar cada fila del CSV, permitiendo un acceso claro y estructurado a los campos.
+- Se usó `strtok` para separar las columnas del CSV debido a su eficiencia y compatibilidad con strings delimitados
+- Para manejar memoria dinámica y copiar strings de longitud variable, se optó por `strdup`, permitiendo duplicar valores de texto sin sobrescribir los datos originales
+- Las métricas se implementaron como funciones modulares para mantener el código ordenado y escalable.
+- El uso de un `Makefile` permitió automatizar la compilación, facilitando pruebas rápidas y repetibles
+- La lectura del CSV fue aislada en un archivo `utils.c`, separando la lógica de entrada/salida del procesamiento de datos.
+
+
 **Uso de IA:**
 
 Durante el desarrollo de este proyecto, se utilizó inteligencia artificial como herramienta de apoyo para:
