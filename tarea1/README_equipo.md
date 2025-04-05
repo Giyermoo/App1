@@ -8,7 +8,7 @@
 
 **Descripción general:**
 
-Este programa fue desarrollado como parte de la tarea del ramo Lenguajes y Paradigmas de la Programación. El objetivo de este trabajp es procesar un archivo CSV con registros de ventas de pizzas y calcular una serie de métricas asociadas a la información contenida tales como las pizzas menos y mas vendidas, el promedio de pizzas, entre varias otras.
+Este programa fue desarrollado como parte de la tarea del ramo Lenguajes y Paradigmas de la Programación. El objetivo de este trabajo es procesar un archivo CSV con registros de ventas de pizzas y calcular una serie de métricas asociadas a la información contenida tales como las pizzas menos y mas vendidas, el promedio de pizzas, entre varias otras.
 
 **Objetivos del proyecto:**
 
