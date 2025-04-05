@@ -26,20 +26,23 @@ Este programa fue desarrollado como parte de la tarea del ramo Lenguajes y Parad
 
 **_main.c_**: Es la función principal. Es el archivo que coordina la ejecución del programa, lee el archivo de ventas, llama a las funciones de cálculo de métricas y muestra los resultados en la consola.
 
-**_utils.c_**:  Realizan la lectura del CSV
+**_utils.c_**:  Realizan la lectura del CSV.  
 **_utils.h_**: Es el archivo de encabezado que contiene las definiciones de las estructuras de datos. 
 
-_metrics.c y metrics.h_: Realizan el cálculo de métricas requeridas
+**_metrics.c_**: Contiene las funciones encargadas de realizar los cálculos de las métricas requeridas.  
+**_metrics.h_**: Es el archivo de encabezado que contiene las declaraciones de las funciones de cálculo de métricas.
 
 **Compilación del proyecto:**
-Desde la terminal o consola, ejecutar:
+Para poder ejecutar el codigo debemos desde el terminal ejecutar el siguiente comando:
 
 `
 make app1
 ./app1 ventas.csv pms pls dms dls dmsp dlsp apo apd ims hp
 `
+En este comando podemos ver que el _make app1_ compila el proyecto, _./app1 ventas.csv_ ejecuta el programa con el archivo csv y por ultimo las metricas _pms pls dms dls dmsp dlsp apo apd ims hp_ son las que queremos que se impriman una vez se ejecute el programa.
 
 **Uso de IA:**
+
 Durante el desarrollo de este proyecto, se utilizó inteligencia artificial como herramienta de apoyo para:
 
 -Aprender a estructurar correctamente el entorno de trabajo con Git y GitHub.
