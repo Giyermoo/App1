@@ -1,5 +1,5 @@
-#ifndef METRICS_H
-#define METRICS_H
+#ifndef metrics_h
+#define metrics_h
 
 #include "utils.h" // Asumiendo que la estructura `order` está definida aquí
 
@@ -18,4 +18,4 @@ double apd(order *orders, int size);
 char *ims(order *orders, int size);
 char *hp(order *orders, int size);
 
-#endif // METRICS_H
+#endif // metrics_h
