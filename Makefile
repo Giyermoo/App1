@@ -1,15 +1,21 @@
-# Makefile para compilar app1
+CC=gcc  # Cambia a g++ si estás usando C++
+CFLAGS=-Wall -Wextra -g
+LDFLAGS=
+OBJ=MAIN.o METRICS.o utils.o
 
-CC = gcc
-CFLAGS = -Wall -Wextra -std=c99
-SRC = src/main.c src/metrics.c src/utils.c
-HEADERS = src/metrics.h src/utils.h
-OUT = app1
+app: $(OBJ)
+	$(CC) $(LDFLAGS) -o $@ $^
 
-all: $(OUT)
+MAIN.o: MAIN.c METRICS.h utils.h
+	$(CC) $(CFLAGS) -c $<
 
-$(OUT): $(SRC) $(HEADERS)
-	$(CC) $(CFLAGS) $(SRC) -o $(OUT)
+METRICS.o: METRICS.c METRICS.h utils.h
+	$(CC) $(CFLAGS) -c $<
+
+utils.o: utils.c utils.h
+	$(CC) $(CFLAGS) -c $<
 
 clean:
-	rm -f $(OUT)
+	rm -f $(OBJ) app
+
+.PHONY: clean
