@@ -40,7 +40,10 @@ make app1
 ./app1 ventas.csv pms pls dms dls dmsp dlsp apo apd ims hp
 `
 
-En este comando podemos ver que el `make app1` compila el proyecto, `./app1 ventas.csv` ejecuta el programa con el archivo csv y por ultimo las metricas `pms pls dms dls dmsp dlsp apo apd ims hp` son las que queremos que se impriman una vez se ejecute el programa.
+El funcionamiento del comando anterior es el siguiente:
+- `make app1`: Es el encargado de compilar el proyecto.
+- `./app1 ventas.csv`: Ejecuta el programa con el archivo csv
+- `pms pls dms dls dmsp dlsp apo apd ims hp`: Son las metricas que queremos que se impriman una vez se ejecute el programa.
 
 **Diagrama de flujo general del programa:**
 [Inicio] 
