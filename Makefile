@@ -1,15 +1,15 @@
 CC=gcc  # Cambia a g++ si estás usando C++
 CFLAGS=-Wall -Wextra -g
 LDFLAGS=
-OBJ=MAIN.o METRICS.o utils.o
+OBJ=MAIN.o metrics.o utils.o
 
 app: $(OBJ)
 	$(CC) $(LDFLAGS) -o $@ $^
 
-MAIN.o: MAIN.c METRICS.h utils.h
+MAIN.o: main.c metrics.h utils.h
 	$(CC) $(CFLAGS) -c $<
 
-METRICS.o: METRICS.c METRICS.h utils.h
+metrics.o: metrics.c metrics.h utils.h
 	$(CC) $(CFLAGS) -c $<
 
 utils.o: utils.c utils.h
