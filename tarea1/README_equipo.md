@@ -47,4 +47,11 @@ Durante el desarrollo de este proyecto, se utilizó inteligencia artificial como
 
 El uso de IA fue formativo y supervisado, sin reemplazar la comprensión ni la autoría del trabajo desarrollado.
 
+**Reflexión final:**
+
+hubo 
+
+Durante el trabajo, enfrentamos errores por punteros no inicializados, problemas con tokenización de strings y validaciones de campos. Estos fueron resueltos con pruebas sistemáticas, impresiones de depuración (`printf`) y revisión de documentación técnica.
+
+Como equipo, logramos una distribución eficiente de tareas, y el proyecto resultó funcional y sólido en su estructura. El mayor aprendizaje fue reforzar el dominio de C en escenarios de procesamiento real de datos.
 
