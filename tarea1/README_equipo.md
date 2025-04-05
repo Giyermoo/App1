@@ -45,7 +45,7 @@ El funcionamiento del comando anterior es el siguiente:
 - `./app1 ventas.csv`: Ejecuta el programa con el archivo csv
 - `pms pls dms dls dmsp dlsp apo apd ims hp`: Son las metricas que queremos que se impriman una vez se ejecute el programa.
 
-**Diagrama de flujo general del programa:**
+**Diagrama de flujo general del programa:**  
 [Inicio] 
    → Leer archivo ventas.csv 
       → Parsear datos y guardar en arreglo de structs (order[])
