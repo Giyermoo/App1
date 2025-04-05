@@ -8,13 +8,13 @@
 
 **Descripción general:**
 
-Este programa fue desarrollado como parte de la tarea del ramo **Lenguajes y Paradigmas de la Programación**. El objetivo de este trabajo es procesar un archivo CSV con registros de ventas de pizzas y calcular una serie de métricas asociadas a la información contenida tales como las pizzas menos y mas vendidas, el promedio de pizzas, entre varias otras.
+Este programa fue desarrollado como parte de la asignatura del ramo **Lenguajes y Paradigmas de la Programación**. El objetivo de este trabajo fue procesar un archivo CSV con registros de ventas de pizzas y calcular una serie de métricas asociadas a la información contenida tales como las pizzas menos y mas vendidas, el promedio de pizzas, entre varias otras.
 
 **Objetivos del proyecto:**
 
 - Procesar datos desde un archivo CSV utilizando el lenguaje de programación C.
 - Implementar estructuras y punteros para representar y manipular información de órdenes de venta.
-- Calcular métricas relevantes como la pizza más vendida, promedios y tendencias, a partir de los datos leídos.
+- Calcular métricas relevantes tales como la pizza más vendida, promedios y tendencias, a partir de los datos leídos.
 - Aplicar conceptos fundamentales de programación modular, memoria dinámica y uso de archivos.
 - Desarrollar competencias en la organización de proyectos con Makefile y buenas prácticas de codificación.
 
@@ -86,9 +86,9 @@ El uso de IA fue formativo y supervisado, sin reemplazar la comprensión ni la a
 
 **Reflexión final:**
 
-La realizacion de este proyecto represento un aprendizaje profundo y tangible, especialmente en el uso de punteros y comandos disponibles para el lenguaje C. Además, a lo largo del trabajo pudimos entender a mayor detalle como funcionan los archivos .c o .h en conjunto, así como la importancia de la claridad que hay que tener a la hora de definir cada archivo, variable, detalles, notación, etc. Esto fue escencial para permitir el buen funcionamiento del codigo.
+La realizacion de este proyecto represento un aprendizaje profundo y tangible, especialmente en el uso de punteros y comandos disponibles para el lenguaje C. Además, a lo largo del trabajo pudimos entender a mayor detalle como funcionan los archivos .c o .h en conjunto, así como la importancia de la claridad que hay que tener a la hora de definir cada archivo, variable, detalles, notación, etc. Esto fue esencial para permitir el buen funcionamiento del codigo.
 
-Durante el trabajo, algunos de los mayores desafios que se nos presentaron fueron los siguientes: El mal traspaso de archivos mediante el mal uso de punteros, funciones mal estructuradas, mala obtención de datos desde el csv, datos repetidos con mismos valores, etc. (demasiados) pero se logro mediante la ayuda mutua y la ayuda de agentes externos (chat gpt, GitHub) determinar donde estaban los errores, entender a totalidad el código, los archivos y la función que cumple cada engranaje, con el resto.
+Durante el trabajo, algunos de los mayores desafíos fueron el mal traspaso de archivos debido al mal uso de punteros, funciones mal estructuradas, mala obtención de datos desde el CSV, datos repetidos, entre otros. (demasiados) Pero se logro mediante la ayuda mutua y la ayuda de agentes externos (chat gpt, GitHub) determinar donde estaban los errores, entender a totalidad el código, los archivos y la función que cumple cada engranaje, con el resto.
 
 Como equipo, logramos una distribución eficiente de tareas, dividiendo entre código, informe, desarrollo de GitHub, trabajo con IA, y un mix de ayuda mutua para que todos sepamos que se esta haciendo, así trabajamos de una manera mas integral, y menos separada entre todos, y de esta forma logramos que el proyecto resultara con éxito, con una estructura solida y funcional. El mayor aprendizaje fue reforzar el dominio de el lenguaje C en escenarios de procesamiento real de datos, donde el sistema funciona, no solo con nuestros datos, sino que es aplicable a cualquier data base (con los mismos parámetros), por lo que no es un trabajo sin mas, es un trabajo integral que podría servir en al realidad, ayudando a nuestra experiencia y consideración de la aplicación de los lenguajes.
 
