@@ -54,9 +54,9 @@ El uso de IA fue formativo y supervisado, sin reemplazar la comprensión ni la a
 
 **Reflexión final:**
 
-hubo un aprendizaje total y demasiado tangible de los punteros y comandos disponibles. ademas se pud analizar muy bien los detalles de como funcionan los archivos en conjunto, desde los .c o .h, hastalas variaciones necesarias entre la claridad que hay que tener a la hora de definir cada archivo, variable, detalles, notacion, etc.
+hubo un aprendizaje total y demasiado tangible de los punteros y comandos disponibles. además se pudo analizar muy bien los detalles de como funcionan los archivos en conjunto, desde los .c o .h, hasta las variaciones necesarias entre la claridad que hay que tener a la hora de definir cada archivo, variable, detalles, notación, etc.
 
-Durante el trabajo, enfrentamos errores por punteros no inicializados, problemas con tokenización de strings y validaciones de campos. Estos fueron resueltos con pruebas sistemáticas, impresiones de depuración (`printf`) y revisión de documentación técnica.
+en e trabajo hubieron demasiados problemas como el mal traspaso de archivos mediante el mal uso de punteros, funciones mal estructuradas, mala obtención de datos desde el csv, datos repetidos con mismos valores, etc. (demasiados)
+pero se logro mediante la ayuda mutua y le ayuda de agentes externos (gpt, GitHub) determinar donde estaban los errores, entender a totalidad el código, los archivos y la función que cumple cada engranaje, con el resto.
 
-Como equipo, logramos una distribución eficiente de tareas, y el proyecto resultó funcional y sólido en su estructura. El mayor aprendizaje fue reforzar el dominio de C en escenarios de procesamiento real de datos.
-
+Como equipo, logramos una distribución eficiente de tareas, dividiendo entre código, informe, desarrollo de GitHub, trabajo con ia, y un mix de ayuda mutua para que todos sepamos que se esta haciendo, así trabajamos de una manera mas integral, y menos separada entre todos, y asi el proyecto resultó funcional y sólido en su estructura. El mayor aprendizaje fue reforzar el dominio de C en escenarios de procesamiento real de datos, donde el sistema funciona, no solo con nuestros datos, sino que es aplicable a cualquier data base (con los mismos parámetros), por lo que no es un trabajo sin mas, es un trabajo integral que podría servir en al realidad, ayudando a nuestra experiencia y consideración de la aplicación de los lenguajes.
