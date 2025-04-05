@@ -20,17 +20,17 @@ Este programa fue desarrollado como parte de la tarea del ramo **Lenguajes y Par
 
 **Estructura del proyecto:**
 
-**_ventas.csv_**: Es el archivo de entrada con los datos de ventas de las pizzas. El archivo tiene filas y columnas donde podemos encontrar la informarción correspondiente a la venta de cada pizza como el tipo, la cantidad, el dia, entre otras.
+`ventas.csv`: Es el archivo de entrada con los datos de ventas de las pizzas. El archivo tiene filas y columnas donde podemos encontrar la informarción correspondiente a la venta de cada pizza como el tipo, la cantidad, el dia, entre otras.
 
-**_makefile_**: Es el archivo para compilación automatizada, este archivo contiene las instrucciones necesarias para compilar el código de manera eficiente, asegurando que el proyecto se pueda construir con el comando make.
+`makefile`: Es el archivo para compilación automatizada, este archivo contiene las instrucciones necesarias para compilar el código de manera eficiente, asegurando que el proyecto se pueda construir con el comando make.
 
-**_main.c_**: Es la función principal. Es el archivo que coordina la ejecución del programa, lee el archivo de ventas, llama a las funciones de cálculo de métricas y muestra los resultados en la consola.
+`main.c`: Es la función principal. Es el archivo que coordina la ejecución del programa, lee el archivo de ventas, llama a las funciones de cálculo de métricas y muestra los resultados en la consola.
 
-**_utils.c_**:  Realizan la lectura del CSV.  
-**_utils.h_**: Es el archivo de encabezado que contiene las definiciones de las estructuras de datos. 
+`utils.c`:  Realizan la lectura del CSV.  
+`utils.h`: Es el archivo de encabezado que contiene las definiciones de las estructuras de datos. 
 
-**_metrics.c_**: Contiene las funciones encargadas de realizar los cálculos de las métricas requeridas.  
-**_metrics.h_**: Es el archivo de encabezado que contiene las declaraciones de las funciones de cálculo de métricas.
+`metrics.c`: Contiene las funciones encargadas de realizar los cálculos de las métricas requeridas.  
+`metrics.h`: Es el archivo de encabezado que contiene las declaraciones de las funciones de cálculo de métricas.
 
 **Compilación del proyecto:**
 Para poder ejecutar el codigo debemos desde el terminal ejecutar el siguiente comando:
@@ -40,7 +40,7 @@ make app1
 ./app1 ventas.csv pms pls dms dls dmsp dlsp apo apd ims hp
 `
 
-En este comando podemos ver que el _make app1_ compila el proyecto, _./app1 ventas.csv_ ejecuta el programa con el archivo csv y por ultimo las metricas _pms pls dms dls dmsp dlsp apo apd ims hp_ son las que queremos que se impriman una vez se ejecute el programa.
+En este comando podemos ver que el `make app1` compila el proyecto, `./app1 ventas.csv` ejecuta el programa con el archivo csv y por ultimo las metricas `pms pls dms dls dmsp dlsp apo apd ims hp` son las que queremos que se impriman una vez se ejecute el programa.
 
 **Diagrama de flujo general del programa:**
 [Inicio] 
@@ -75,9 +75,9 @@ En este comando podemos ver que el _make app1_ compila el proyecto, _./app1 vent
 
 Durante el desarrollo de este proyecto, se utilizó inteligencia artificial como herramienta de apoyo para:
 
--Aprender a estructurar correctamente el entorno de trabajo con Git y GitHub.
--Formular, organizar y depurar el código fuente en lenguaje C, asegurando modularidad, uso correcto de punteros y estructuras dinámicas.
--Comprender errores de segmentación, lectura de archivos y separación de responsabilidades entre archivos fuente.
+-Aprender a estructurar correctamente el entorno de trabajo con Git y GitHub.  
+-Formular, organizar y depurar el código fuente en lenguaje C, asegurando modularidad, uso correcto de punteros y estructuras dinámicas.  
+-Comprender errores de segmentación, lectura de archivos y separación de responsabilidades entre archivos fuente.  
 
 El uso de IA fue formativo y supervisado, sin reemplazar la comprensión ni la autoría del trabajo desarrollado.
 
