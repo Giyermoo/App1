@@ -3,7 +3,7 @@ Proyecto App1 – Análisis de ventas de una pizzería
 Integrantes del equipo
 -Fernando Guaita
 -Guillermo Hidalgo
--Fernanda Quiros
+-Fernanda Quirós
 
 Descripción general:
 Este programa fue desarrollado como parte de la tarea del ramo Lenguajes y Paradigmas de la Programación. El objetivo es procesar un archivo CSV con registros de ventas de pizzas y calcular una serie de métricas asociadas a la información contenida.
