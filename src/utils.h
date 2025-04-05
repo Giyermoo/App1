@@ -1,5 +1,5 @@
-#ifndef UTILS_H
-#define UTILS_H
+#ifndef utils_h
+#define utils_h
 
 typedef struct {
     int pizza_id;
@@ -18,4 +18,4 @@ typedef struct {
  
 order *read_csv(const char *filename, int *size);
 
-#endif // UTILS_H
+#endif // utils_h
