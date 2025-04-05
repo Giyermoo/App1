@@ -49,7 +49,7 @@ El uso de IA fue formativo y supervisado, sin reemplazar la comprensión ni la a
 
 **Reflexión final:**
 
-hubo un aprendizaje total y demasiado tangible de los punteros y comandos disponibles.
+hubo un aprendizaje total y demasiado tangible de los punteros y comandos disponibles. ademas se pud analizar muy bien los detalles de como funcionan los archivos en conjunto, desde los .c o .h, hastalas variaciones necesarias entre la claridad que hay que tener a la hora de definir cada archivo, variable, detalles, notacion, etc.
 
 Durante el trabajo, enfrentamos errores por punteros no inicializados, problemas con tokenización de strings y validaciones de campos. Estos fueron resueltos con pruebas sistemáticas, impresiones de depuración (`printf`) y revisión de documentación técnica.
 
