@@ -33,9 +33,10 @@ _metrics.c y metrics.h_: Realizan el cálculo de métricas requeridas
 **Compilación del proyecto:**
 Desde la terminal o consola, ejecutar:
 
+`
 make app1
 ./app1 ventas.csv pms pls dms dls dmsp dlsp apo apd ims hp
-
+`
 
 **Uso de IA:**
 Durante el desarrollo de este proyecto, se utilizó inteligencia artificial como herramienta de apoyo para:
