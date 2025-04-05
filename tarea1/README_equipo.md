@@ -22,7 +22,7 @@ Este programa fue desarrollado como parte de la tarea del ramo Lenguajes y Parad
 
 **_ventas.csv_**: Es el archivo de entrada con los datos de ventas de las pizzas. El archivo tiene filas y columnas donde podemos encontrar la informarción correspondiente a la venta de cada pizza como el tipo, la cantidad, el dia, entre otras.
 
-**_Makefile_**: Es el archivo para compilación automatizada, este archivo contiene las instrucciones necesarias para compilar el código de manera eficiente, asegurando que el proyecto se pueda construir con el comando make.
+**_makefile_**: Es el archivo para compilación automatizada, este archivo contiene las instrucciones necesarias para compilar el código de manera eficiente, asegurando que el proyecto se pueda construir con el comando make.
 
 **_main.c_**: Es la función principal. Es el archivo que coordina la ejecución del programa, lee el archivo de ventas, llama a las funciones de cálculo de métricas y muestra los resultados en la consola.
 
@@ -39,6 +39,7 @@ Para poder ejecutar el codigo debemos desde el terminal ejecutar el siguiente co
 make app1
 ./app1 ventas.csv pms pls dms dls dmsp dlsp apo apd ims hp
 `
+
 En este comando podemos ver que el _make app1_ compila el proyecto, _./app1 ventas.csv_ ejecuta el programa con el archivo csv y por ultimo las metricas _pms pls dms dls dmsp dlsp apo apd ims hp_ son las que queremos que se impriman una vez se ejecute el programa.
 
 **Uso de IA:**
