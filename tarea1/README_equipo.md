@@ -20,13 +20,14 @@ Este programa fue desarrollado como parte de la tarea del ramo Lenguajes y Parad
 
 **Estructura del proyecto:**
 
-_ventas.csv_: Es el archivo de entrada con los datos de ventas de las pizzas. El archivo tiene filas y columnas donde podemos encontrar la informarción correspondiente a la venta de cada pizza como el tipo, la cantidad, el dia, entre otras.
+**_ventas.csv_**: Es el archivo de entrada con los datos de ventas de las pizzas. El archivo tiene filas y columnas donde podemos encontrar la informarción correspondiente a la venta de cada pizza como el tipo, la cantidad, el dia, entre otras.
 
-_Makefile_: Es el archivo para compilación automatizada, este archivo contiene las instrucciones necesarias para compilar el código de manera eficiente, asegurando que el proyecto se pueda construir con el comando make.
+**_Makefile_**: Es el archivo para compilación automatizada, este archivo contiene las instrucciones necesarias para compilar el código de manera eficiente, asegurando que el proyecto se pueda construir con el comando make.
 
-_main.c_: Es la función principal 
+**_main.c_**: Es la función principal. Es el archivo que coordina la ejecución del programa, lee el archivo de ventas, llama a las funciones de cálculo de métricas y muestra los resultados en la consola.
 
-_utils.c y utils.h_: Realizan la lectura del CSV y definiciones de estructuras  
+**_utils.c_**:  Realizan la lectura del CSV
+**_utils.h_**: Es el archivo de encabezado que contiene las definiciones de las estructuras de datos. 
 
 _metrics.c y metrics.h_: Realizan el cálculo de métricas requeridas
 
