@@ -1,21 +1,19 @@
-CC=gcc  # Cambia a g++ si estás usando C++
-CFLAGS=-Wall -Wextra -g
-LDFLAGS=
-OBJ=MAIN.o metrics.o utils.o
+CC = gcc
+CFLAGS = -Wall -Wextra -g
+LDFLAGS =
+SRC = src/main.c src/metrics.c src/utils.c
+OBJ = $(SRC:.c=.o)
+OUT = app1
 
-app: $(OBJ)
+all: $(OUT)
+
+$(OUT): $(OBJ)
 	$(CC) $(LDFLAGS) -o $@ $^
 
-MAIN.o: main.c metrics.h utils.h
-	$(CC) $(CFLAGS) -c $<
-
-metrics.o: metrics.c metrics.h utils.h
-	$(CC) $(CFLAGS) -c $<
-
-utils.o: utils.c utils.h
-	$(CC) $(CFLAGS) -c $<
+src/%.o: src/%.c
+	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
-	rm -f $(OBJ) app
+	rm -f $(OBJ) $(OUT)
 
-.PHONY: clean
+.PHONY: clean all
