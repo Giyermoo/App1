@@ -49,7 +49,7 @@ El uso de IA fue formativo y supervisado, sin reemplazar la comprensión ni la a
 
 **Reflexión final:**
 
-hubo 
+hubo un aprendizaje total y demasiado tangible de los punteros y comandos disponibles.
 
 Durante el trabajo, enfrentamos errores por punteros no inicializados, problemas con tokenización de strings y validaciones de campos. Estos fueron resueltos con pruebas sistemáticas, impresiones de depuración (`printf`) y revisión de documentación técnica.
 
