@@ -10,6 +10,14 @@
 
 Este programa fue desarrollado como parte de la tarea del ramo Lenguajes y Paradigmas de la Programación. El objetivo de este trabajp es procesar un archivo CSV con registros de ventas de pizzas y calcular una serie de métricas asociadas a la información contenida tales como las pizzas menos y mas vendidas, el promedio de pizzas, entre varias otras.
 
+**Objetivos del proyecto:**
+
+- Procesar datos desde un archivo CSV utilizando el lenguaje de programación C.
+- Implementar estructuras y punteros para representar y manipular información de órdenes de venta.
+- Calcular métricas relevantes como la pizza más vendida, promedios y tendencias, a partir de los datos leídos.
+- Aplicar conceptos fundamentales de programación modular, memoria dinámica y uso de archivos.
+- Desarrollar competencias en la organización de proyectos con Makefile y buenas prácticas de codificación.
+
 **Estructura del proyecto:**
 
 _ventas.csv_: Es el archivo de entrada con los datos de ventas de las pizzas. El archivo tiene filas y columnas donde podemos encontrar la informarción correspondiente a la venta de cada pizza como el tipo, la cantidad, el dia, entre otras.
