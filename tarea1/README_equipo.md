@@ -6,11 +6,11 @@ Integrantes del equipo
 -Fernanda Quirós
 
 Descripción general:
-Este programa fue desarrollado como parte de la tarea del ramo Lenguajes y Paradigmas de la Programación. El objetivo es procesar un archivo CSV con registros de ventas de pizzas y calcular una serie de métricas asociadas a la información contenida.
+Este programa fue desarrollado como parte de la tarea del ramo Lenguajes y Paradigmas de la Programación. El objetivo de este trabajp es procesar un archivo CSV con registros de ventas de pizzas y calcular una serie de métricas asociadas a la información contenida tales como las pizzas menos y mas vendidas, el promedio de pizzas, entre varias otras.
 
 Estructura del proyecto:
-ventas.csv: Es el archivo de entrada con los datos de ventas 
-Makefile Es el archivo para compilación automatizada 
+ventas.csv: Es el archivo de entrada con los datos de ventas de las pizzas. El archivo tiene filas y columnas donde podemos encontrar la informarción correspondiente a la venta de cada pizza como el tipo, la cantidad, el dia, entre otras.
+Makefile Es el archivo para compilación automatizada, este archivo contiene las instrucciones necesarias para compilar el código de manera eficiente, asegurando que el proyecto se pueda construir con el comando make.
 main.c Es la función principal 
 utils.c y utils.h Realizan la lectura del CSV y definiciones de estructuras  
 metrics.c y metrics.h Realizan el cálculo de métricas requeridas
