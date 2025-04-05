@@ -43,23 +43,28 @@ make app1
 En este comando podemos ver que el _make app1_ compila el proyecto, _./app1 ventas.csv_ ejecuta el programa con el archivo csv y por ultimo las metricas _pms pls dms dls dmsp dlsp apo apd ims hp_ son las que queremos que se impriman una vez se ejecute el programa.
 
 **Diagrama de flujo general del programa:**
-Inicio
-  ↓
-Leer archivo CSV (ventas.csv)
-  ↓
-Guardar los datos en estructura de tipo `order`
-  ↓
-Recorrer argumentos entregados en consola
-  ↓
-  Por cada argumento:
-    → Si es una métrica válida (pms, dms, etc.)
-      → Llamar función correspondiente
-      → Calcular resultado
-      → Imprimir resultado en consola
-  ↓
-Liberar memoria
-  ↓
-Fin
+
+[Inicio]
+   ↓
+[Lectura del archivo CSV]
+   ↓
+[Almacenar datos en estructura `order`]
+   ↓
+[Recorrer argumentos]
+   ↓
+┌────────────────────────────────────┐
+│ ¿Es una métrica válida (pms, apo)?│
+└────────────────────────────────────┘
+   ↓  Sí                          No ↓
+[Ejecutar función de métrica]    [Ignorar]
+   ↓
+[Imprimir resultado]
+   ↓
+[Fin del ciclo]
+   ↓
+[Liberar memoria]
+   ↓
+[Fin del programa]
 
 **Razones de diseño y decisiones técnicas:**
 
